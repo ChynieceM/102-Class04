@@ -1,14 +1,36 @@
-body {
+  body, html {
     height: 100%;
     font-family: "Inconsolata", sans-serif;
   }
+  
   .bgimg {
     background-position: center;
     background-size: cover;
     background-image: url("https://images.squarespace-cdn.com/content/v1/5531eb6de4b0c759b385ac75/1560479909116-HN4PHGEH8P3URAE0OAQ6/Screen+Shot+2019-06-13+at+6.26.02+PM.png?format=1000w");
     min-height: 75%;
-}
-
-.menu {
+  }
+  
+  .menu {
     display: none;
   }
+  #Home:hover{
+    background-color:red;
+
+  }
+top {
+    position:fixed;
+    width:100%;z-index:1
+}
+    
+top {
+    top:0
+}
+
+bottom {
+    bottom:0
+}
+
+body {
+    background-color:#fdf5e6
+}
+
