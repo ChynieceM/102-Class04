@@ -11,3 +11,8 @@ myImage.onclick = function () {
     myImage.setAttribute("src", "https://images.squarespace-cdn.com/content/v1/5531eb6de4b0c759b385ac75/1560479909116-HN4PHGEH8P3URAE0OAQ6/Screen+Shot+2019-06-13+at+6.26.02+PM.png?format=1000w");
   }
 };
+
+function alertBtn(){
+  alert("Recipe Submissions Coming Soon!");
+
+}
