@@ -83,6 +83,28 @@
 
         
     </div>
+<div id="loopSection">
+
+  <label counter ="Rating">What do you rate this site?</label>
+  <input id = "counter" type="number" name="Rating of this Site">
+  <button onclick="loop()">Submit</button> 
+</div>
+
+<script>
+
+
+
+function loop(){
+  let counter = document.getElementById("counter").value;
+  let strings = "Great Site!"; 
+  
+  while (counter>0){
+    document.getElementById("loopSection").append(strings)
+    (counter--);
+  }
+}
+</script>
+
 
     <div>
     <!--<nav class="menu">
@@ -105,7 +127,7 @@
             alert("Recipe Submission Coming Soon!");
           });*/
 
-          src="script.js"
+        
          
           </script>
 
