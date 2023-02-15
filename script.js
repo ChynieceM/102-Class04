@@ -18,3 +18,19 @@ function alertBtn(){
 }
 
 
+let x = "Failing is just another word for learning.";
+
+let variable a equal "Welcome John Doe";
+
+
+((2 * 90) === 180) && (false && 'true')
+
+
+function helloWorld(name) {
+  console.log('A new world awaits, ' + name);
+}
+
+var helloWorld = function(name) {
+  console.log('A new world awaits, ' + name);
+}
+

@@ -58,6 +58,8 @@
   </header>
   <!-- Add a background color and large text to the whole page -->
 <div class="w3-sand w3-grayscale w3-large">
+
+  
   <!-- About Container -->
 <div class="w3-container" id="about">
     <div class="w3-content" style="max-width:700px">
@@ -67,19 +69,23 @@
         You need to know the mustard brand, the exact seasoning blend, and if she baked it in a cast iron or not. 
         In BAPs kitchen you'll find every herb and spice, every teaspoon and handful. We crafted this website to compile recipes passed down and around from friends and family alike.</p>
     </div>
+    <button id="submitbutton">Submit Recipe</button>
+
+    
+
     <div class="w3-panel w3-leftbar w3-light-grey">
         <p id="recipesubmission"><i>"Food for the body is not enough. There must be food for the soul.</i></p>
         <p><i>Source Unknown</i></p>
         <!--<button type="button" onclick="document.getElementById('recipesubmission').style.fontSize='35px'">Submit Recipe</button>-->
         
-      <script>
+      <!--<script>
         let btn = document.createElement("button");
           btn.innerHTML = "Submit Recipe";
           btn.onclick = function () {
             alert("Recipe Submission Coming Soon!");
           };
           document.body.appendChild(btn);
-      </script>
+      </script>-->
 
         
     </div>
@@ -95,15 +101,21 @@
 
 function loop(){
   let counter = document.getElementById("counter").value;
-  let strings = "Yummy in my Tummy <3"; 
+  let strings = "Thank you! <3"; 
   
   while (counter>0){
-    document.getElementById("loopSection").append(strings)
-    (counter--);
+    document.getElementById("loopSection").innerHTML += strings
+    counter--;
   }
 }
 </script>
-
+<script>
+  let btn = document.getElementById("submitbutton")
+  btn.innerHTML = "Submit Recipe";
+  btn.onclick = function () {
+    alert("Recipe Submission Coming Soon!");
+  };
+</script>
 
     <div>
     <!--<nav class="menu">

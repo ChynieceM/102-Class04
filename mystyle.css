@@ -34,3 +34,13 @@ body {
     background-color:#fdf5e6
 }
 
+.div {
+  background: rgb(0, 0, 250);
+}
+
+div {
+  background: grey;
+}
+#div {
+  background: grey;
+}
