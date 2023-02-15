@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
     
     
     <style>
@@ -40,7 +41,7 @@
         <a href="#recipes" class="w3-button w3-block w3-black">RECIPES</a>
       </div>
       <div class="w3-col s3">
-        <a href="#tutorials" class="w3-button w3-block w3-black">TUTORIALS</a>
+        <a href="#tutorials" class="w3-button w3-block w3-black">OUR FAVES</a>
       </div>
       <div class="w3-col s3">
         <a href="#weeklyflavor" class="w3-button w3-block w3-black">WEEKLY FLAVOR</a>
@@ -72,22 +73,10 @@
     <button id="submitbutton">Submit Recipe</button>
 
     
-
+  <!--Quote/submit recipe section-->
     <div class="w3-panel w3-leftbar w3-light-grey">
         <p id="recipesubmission"><i>"Food for the body is not enough. There must be food for the soul.</i></p>
         <p><i>Source Unknown</i></p>
-        <!--<button type="button" onclick="document.getElementById('recipesubmission').style.fontSize='35px'">Submit Recipe</button>-->
-        
-      <!--<script>
-        let btn = document.createElement("button");
-          btn.innerHTML = "Submit Recipe";
-          btn.onclick = function () {
-            alert("Recipe Submission Coming Soon!");
-          };
-          document.body.appendChild(btn);
-      </script>-->
-
-        
     </div>
 
 <div id="loopSection">
@@ -117,13 +106,16 @@ function loop(){
   };
 </script>
 
-    <div>
-    <!--<nav class="menu">
-        <a href="http://">Back to the top</a>
-        <a href="http://">Home</a>
-        <a href="http://">Recipes</a>
-    </nav>-->
-    </div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE MENU</span></h5>
+    </div>  
+  </div>
+</div>
+
     <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
         <p><a href="https://www.linkedin.com/in/chyniece-matthews-/" title="Chyniece Matthews" target="_blank" class="w3-hover-text-green">chyniece matthews</a></p>
         <p id="date"></p>
@@ -131,16 +123,7 @@ function loop(){
           const d = new Date();
           d.setFullYear(2023);
           document.getElementById("date").innerHTML = d;
-
-          /*let btn = document.createElement("button");
-          btn.innerHTML = "Submit Recipe";
-          btn.addEventListener("click", function() {
-            alert("Recipe Submission Coming Soon!");
-          });*/
-
-        
-         
-          </script>
+        </script>
 
     </footer>
   
